@@ -122,7 +122,7 @@ switch (choix){
     default: printf("entrez un nombre depuis le menu afficher \n");
     break;
 }
-    }while (1);
+    }while (choix>5 || choix=0);
 
 return 0;
 
